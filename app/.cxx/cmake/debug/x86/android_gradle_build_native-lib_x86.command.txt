@@ -1,0 +1,8 @@
+Executable : C:\Users\Max
+arguments : 
+Kazanovsky\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-C
+C:\Users\Max Kazanovsky\AndroidStudioProjects\Covid19App\app\.cxx\cmake\debug\x86
+native-lib
+jvmArgs : 
+
