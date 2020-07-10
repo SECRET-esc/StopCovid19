@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
+        System.loadLibrary("sayhello");
     }
     private Switch a_switch;
     private String message;
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         a_switch = findViewById(R.id.illswitch);
         TextView tv = findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
+        TextView text = findViewById(R.id.mytextview);
+        text.setText(hello());
     }
     public void startService(View v) throws InterruptedException {
 
@@ -59,46 +62,11 @@ public class MainActivity extends AppCompatActivity {
     public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
-
-    private void showNotification(String message){
-
-        Intent notificationcontent = new Intent(this,MainActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(
-                this,
-                0,
-                notificationcontent,
-                0);
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this,"channel1")
-                .setSmallIcon(android.R.drawable.ic_dialog_info)
-                .setContentTitle("Тестовое сообщение!")
-                .setContentText(message)
-                .setDefaults(NotificationCompat.DEFAULT_ALL)
-                .setPriority(NotificationCompat.PRIORITY_HIGH)
-                .setContentIntent(pendingIntent);
-
-        NotificationManager notificationManager = (NotificationManager) this.getSystemService(this.NOTIFICATION_SERVICE);
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel(
-                    "PACKAGE_NAME",
-                    "APP_NAME",
-                    NotificationManager.IMPORTANCE_DEFAULT
-            );
-            if (notificationManager != null) {
-                notificationManager.createNotificationChannel(channel);
-            }
-        }
-        Random randomGenerator = new Random();
-        int randomInt = randomGenerator.nextInt(1000);
-        notificationManager.notify(randomInt,builder.build());
-    }
-
-
-
     public void stopService(View v)
     {
         Intent serviceIntent = new Intent(this, basicallyService.class);
         stopService(serviceIntent);
     }
     public native String stringFromJNI();
+    public native  String hello();
 }

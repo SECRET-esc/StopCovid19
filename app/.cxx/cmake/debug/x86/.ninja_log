@@ -1,3 +1,13 @@
 # ninja log v5
 0	831	615994063	CMakeFiles/native-lib.dir/native-lib.cpp.o	6fc5670f505ca76b
 834	953	615994063	C:/Users/Max Kazanovsky/AndroidStudioProjects/Covid19App/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	f22d1628cbc88ba9
+2	1476	616106631	CMakeFiles/native-lib.dir/native-lib.cpp.o	6fc5670f505ca76b
+1477	1705	616106631	C:/Users/Max Kazanovsky/AndroidStudioProjects/Covid19App/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	f22d1628cbc88ba9
+6	1222	616106784	CMakeFiles/native-lib.dir/native-lib.cpp.o	6fc5670f505ca76b
+1223	1391	616106784	C:/Users/Max Kazanovsky/AndroidStudioProjects/Covid19App/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	f22d1628cbc88ba9
+4	822	616107516	CMakeFiles/native-lib.dir/native-lib.cpp.o	6fc5670f505ca76b
+4	129	616107553	C:/Users/Max Kazanovsky/AndroidStudioProjects/Covid19App/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	f22d1628cbc88ba9
+8	830	616107553	CMakeFiles/sayhello.dir/hello.cpp.o	e5d000f20303a5a3
+831	945	616107553	C:/Users/Max Kazanovsky/AndroidStudioProjects/Covid19App/app/build/intermediates/cmake/debug/obj/x86/libsayhello.so	ba9a156d94e7d613
+3	839	616107589	CMakeFiles/sayhello.dir/hello.cpp.o	e5d000f20303a5a3
+840	955	616107589	C:/Users/Max Kazanovsky/AndroidStudioProjects/Covid19App/app/build/intermediates/cmake/debug/obj/x86/libsayhello.so	ba9a156d94e7d613
