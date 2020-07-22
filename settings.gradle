@@ -1,2 +1,8 @@
+include ':lstopcovid19app'
+include ':library'
+include ':androidlibrarymaster'
 include ':app'
+project(':androidlibrarymaster').projectDir = new File(rootDir, 'app/libs/stopcovid-blesdk-android/library/')
+project(':library').projectDir = new File(rootDir, 'app/libs/library/')
+project(':lstopcovid19app').projectDir = new File(rootDir, 'app/libs/stopcovid-blesdk-android/library/')
 rootProject.name = "Covid19App"

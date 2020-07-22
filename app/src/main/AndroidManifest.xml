@@ -18,6 +18,12 @@
             </intent-filter>
         </activity>
         <service android:name=".basicallyService"/>
+        <service
+            android:name="com.orange.proximitynotification.ProximityNotificationService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location|connectedDevice"/>
+
     </application>
 
 </manifest>

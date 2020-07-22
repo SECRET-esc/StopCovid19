@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.googlecode.zohhak:zohhak:1.1.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.zohhak/zohhak/1.1.1/1f707164ed5d9efd05506f986a55744bf776b20d/zohhak-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.zohhak/zohhak/1.1.1/e38b95a7c6b3ebc1ce43d762e4c84014b83937ad/zohhak-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.zohhak/zohhak/1.1.1/50149722dc13daf1aa93386b67351dad2d8a5693/zohhak-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

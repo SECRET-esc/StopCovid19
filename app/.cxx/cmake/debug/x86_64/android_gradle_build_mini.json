@@ -15,6 +15,13 @@
       "abi": "x86_64",
       "output": "C:\\Users\\Max Kazanovsky\\AndroidStudioProjects\\Covid19App\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libnative-lib.so",
       "runtimeFiles": []
+    },
+    "sayhello-Debug-x86_64": {
+      "artifactName": "sayhello",
+      "buildCommand": "C:\\Users\\Max Kazanovsky\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Max Kazanovsky\\AndroidStudioProjects\\Covid19App\\app\\.cxx\\cmake\\debug\\x86_64\" sayhello",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Max Kazanovsky\\AndroidStudioProjects\\Covid19App\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libsayhello.so",
+      "runtimeFiles": []
     }
   }
 }

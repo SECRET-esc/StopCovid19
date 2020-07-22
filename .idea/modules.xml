@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Covid19App.iml" filepath="$PROJECT_DIR$/.idea/modules/Covid19App.iml" group="Covid19App" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/libs/stopcovid-blesdk-android/library/androidlibrarymaster.iml" filepath="$PROJECT_DIR$/.idea/modules/app/libs/stopcovid-blesdk-android/library/androidlibrarymaster.iml" group="Covid19App/androidlibrarymaster" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Covid19App/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/libs/library/library.iml" filepath="$PROJECT_DIR$/.idea/modules/app/libs/library/library.iml" group="Covid19App/library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/libs/stopcovid-blesdk-android/library/lstopcovid19app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/libs/stopcovid-blesdk-android/library/lstopcovid19app.iml" group="Covid19App/lstopcovid19app" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,3 @@
-//
-// Created by Max Kazanovsky on 10.07.2020.
-//
 #include <string>
 #include <jni.h>
 
